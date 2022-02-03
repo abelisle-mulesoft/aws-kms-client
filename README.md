@@ -98,6 +98,9 @@ output application/java
 }
 ```
 
+> :warning: **In the DataWeave script above, each execution of the KmsUtil::encrypt method results in a call to AWS KMS. The number of calls may ultimately erode the overall performance and throughput of the Mule application when under load.**
+
+
 ## Reporting Issues
 
 You can report new issues at this link https://github.com/abelisle-mulesoft/aws-kms-client/issues.
