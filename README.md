@@ -22,7 +22,7 @@ We completed this proof of concept following a request from a customer who asked
 5. Install this project into your Maven local repository:
 
     ```sh
-    mvn clean compile
+    mvn clean install
     ```
 6. In Anypoint Studio, add this project as a dependency for your Mule application. For example:
 
